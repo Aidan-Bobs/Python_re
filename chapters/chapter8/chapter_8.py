@@ -1,4 +1,4 @@
-""" def my_function(user, game):
+def my_function(user, game):
     user.strip().lower().title()
     game.strip().lower().title()
     print(f"Welcome back to {game}, hope you have fun, {user}")
@@ -29,7 +29,7 @@ def what_name(first, last = None):
     if last == None:
         print(f"your name is {first}")
     else:
-        print(f"your full name is {first, last}") """
+        print(f"your full name is {first, last}") 
 
 from pizza import pizza_oven as pizza_store
 

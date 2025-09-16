@@ -1,4 +1,4 @@
-""" username = input("what is you username? ")
+username = input("what is you username? ")
 
 passions = []
 
@@ -10,10 +10,10 @@ print(f"wecome to python {username}")
 for i in range(len(passions)):
     pass_No = i + 1
     pass_index = i
-    print(f"your number {pass_No} passion is {passions[pass_index]}") """
+    print(f"your number {pass_No} passion is {passions[pass_index]}")
 
 
-""" import random
+import random
 
 print("Welcome to Rock, Paper, Scissors!")
 choices = ["rock", "paper", "scissors"]
@@ -34,15 +34,13 @@ while True:
 
     if player== computer:
         print("It's a tie!")
-    elif (player == "rock" and computer== "scissors") or \
-         (player== "paper" and computer== "rock") or \
-         (player == "scissors" and computer == "paper"):
+    elif (player == "rock" and computer== "scissors") or  (player== "paper" and computer== "rock") or (player == "scissors" and computer == "paper"):
         print("You win!")
         break
     else:
         print("HA HA lol u took a phat L!")
         break
- """
+
 from random import choice
 
 characters = ["Alice", "Bob", "Charlie"]

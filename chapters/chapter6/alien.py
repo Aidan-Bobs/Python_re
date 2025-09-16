@@ -15,4 +15,3 @@ print(f"New position: {alien_0['x_position']}")
 #demo deletion of a key-value pair
 del alien_0['speed']
 print("Alien after deletion:", alien_0)
-print()
